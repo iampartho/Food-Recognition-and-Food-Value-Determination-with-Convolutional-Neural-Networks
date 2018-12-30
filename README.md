@@ -4,13 +4,13 @@ This repository contains the code to extract data, train the data and classify d
 To train the data I have used the **google collaboratory** to use the powerful google's GPU.
 I have shown the dataset structure(or directory) in my hard-drive in below.
 
-# About my_code_data_extraction.py
+# About "my_code_data_extraction.py"
 
 In this code I have extracted the images from the dataset. Only 10 food classes are selected for this project
 After extraction the image are preprocessed for **VGG19** model stantard (Or ImageNet challenge standard).
 Then we **train_test_split** the dataset and save them in a file named **datafile_vgg.npz**
 
-# About Project.ipynb
+# About "Project.ipynb"
 
 This is the google colaboratory file that we used to train our model. 
 Since we used transfer learning we just train the last layer and freeze all other layers.
@@ -18,7 +18,7 @@ Here we import the file **datafile_vgg.npz** and use our preprocess image to tra
 At running 35 epochs I received a 81.6% validation accuracy and saved the weights to the file **saved_weights_8160.hdf5**
 
 
-# About my_cassifier.py
+# About "my_cassifier.py"
 
 This is our classifier where we classify our input image against our 10 classes of food.
 The input image is taken from the webcam (you can also give input pre-taken images if you tweak the code a little)
