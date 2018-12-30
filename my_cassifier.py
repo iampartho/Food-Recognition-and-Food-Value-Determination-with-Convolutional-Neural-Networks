@@ -95,6 +95,15 @@ dict = {0 : 'Burger', 1 : 'chicken_curry', 2 : 'Chicken_wings', 3 : 'club_sandwi
 objectClass = dict[classno]
 print(objectClass)
 
+#### Predicting Top 3 Classes according to their Prediction Percentage #####
+
+new_y = y * 100
+new_y = np.round(new_y[0], 5)
+top_3 = new_y.argsort()[-3:][::-1] # getting the top three classes index number
+for i in top_3:
+    print(new_y[i] , end='' )
+    print('% ' + (dict[i]))
+
 ################### Previewing Prediction ##############################
 
 for i in range(10):
