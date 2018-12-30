@@ -35,10 +35,10 @@ the image against 10 classes. After evaluating the class the food-value image of
 *	'G:\Project\data\omelette\' [1000 pictures of omelette]
 *	'G:\Project\data\pizza\' [1000 pictures of pizza]
 *	'G:\Project\data\samosa\' [1000 pictures of samosa]
-*	'G:\Project\data\spring_rolls\' [1000 pictures of spring_rolls]
-** Datasets are colleced from [Food-101](https://www.kaggle.com/kmader/food41) **
+*	'G:\Project\data\spring_rolls\' [1000 pictures of spring_rolls] <br />
+**Datasets are colleced from [Food-101](https://www.kaggle.com/kmader/food41)**
 
-** Food value image are in the following directory in the hard-drive **
+**Food value image are in the following directory in the hard-drive**
 *		'G:\Project\Food Value\*
 
 # Download link for the weight file of this project
